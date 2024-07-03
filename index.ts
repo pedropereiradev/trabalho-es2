@@ -1,8 +1,8 @@
 import express from 'express';
-import alunosRoutes from './src/routes/alunos';
-import saldoRoutes from './src/routes/saldo';
-import gastosRoutes from './src/routes/gastos';
-// import votosRoutes from './routes/votos';
+import alunosRoutes from './src/controllers/alunos.controller';
+import saldoRoutes from './src/controllers/saldo.controller';
+import gastosRoutes from './src/controllers/gastos.controller';
+
 const app = express();
 const port = process.env.PORT ?? 3001;
 
