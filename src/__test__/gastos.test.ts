@@ -25,4 +25,11 @@ describe('Gastos Service', () => {
 
     expect(gastos.length).toBeGreaterThan(1);
   });
+
+  it('should return deleted gasto', async () => {
+    const gastoCriado = await gastoService.create(gasto);
+    const gastoDeletado = await gastoService.delete(gastoCriado.gasto.id.toString());
+
+    expect(gastoDeletado.gasto.id).toBe(gastoCriado.gasto.id);
+  });
 });
