@@ -1,3 +1,5 @@
+// Service saldo feito por PEDRO
+
 import { PrismaClient } from '@prisma/client';
 import { CreateGastoPayload } from '../interfaces/gasto.interface';
 import CustomError from '../utils/customError';

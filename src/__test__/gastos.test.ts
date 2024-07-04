@@ -1,3 +1,6 @@
+// Teste para o service de gastos feito pelo PEDRO, com uma alteração do EDUARDO 
+// para um banco Mockado.
+
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import GastoService from '../services/gastos.service';
 
