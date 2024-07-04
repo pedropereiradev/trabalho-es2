@@ -1,3 +1,5 @@
+// Controller para a rota /gastos feito por PEDRO
+
 import { Router } from 'express';
 import GastoService from '../services/gastos.service';
 import CustomError from '../utils/customError';

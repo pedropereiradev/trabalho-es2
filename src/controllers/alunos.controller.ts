@@ -1,3 +1,5 @@
+// Controller para a rota /alunos feito por PATRICK
+
 import { Router } from 'express';
 import AlunoService from '../services/alunos.service';
 import CustomError from '../utils/customError';
